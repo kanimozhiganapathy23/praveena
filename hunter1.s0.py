@@ -11,5 +11,10 @@ for i in s:
 			c=c+1
 	if(c>1):
 		lst.append(i)
+	
 lst=sorted(lst)
-print(" ".join(lst))
+if(len(lst)==0):
+	print("unique")
+else:
+	print(" ".join(lst))
+
